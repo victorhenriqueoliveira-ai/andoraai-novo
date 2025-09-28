@@ -26,6 +26,7 @@ interface DashboardLayoutProps {
 
 const navigation = [
   { name: 'Dashboard', href: '/dashboard', icon: BarChart3 },
+  { name: 'Admin', href: '/admin', icon: Settings },
   { name: 'CRM', href: '/dashboard/crm', icon: Users },
   { name: 'WhatsApp', href: '/dashboard/whatsapp', icon: MessageSquare },
   { name: 'Agendamentos', href: '/dashboard/agendamentos', icon: Calendar },
