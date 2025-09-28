@@ -4,18 +4,7 @@ import { useState, useEffect } from 'react';
 import { DashboardLayout } from '@/components/layout/DashboardLayout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { 
-  BarChart3, 
-  TrendingUp, 
-  TrendingDown,
-  Users, 
-  DollarSign,
-  MessageSquare,
-  Calendar,
-  Download,
-  Filter,
-  RefreshCw
-} from 'lucide-react';
+import { ChartBar as BarChart3, TrendingUp, TrendingDown, Users, DollarSign, MessageSquare, Calendar, Download, Filter, RefreshCw } from 'lucide-react';
 
 interface AnalyticsData {
   overview: {

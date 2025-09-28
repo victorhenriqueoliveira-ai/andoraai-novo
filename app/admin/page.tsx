@@ -6,22 +6,7 @@ import { DashboardLayout } from '@/components/layout/DashboardLayout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { 
-  Users, 
-  DollarSign, 
-  Brain, 
-  TrendingUp, 
-  AlertTriangle,
-  CheckCircle,
-  Clock,
-  Settings,
-  BarChart3,
-  Zap,
-  RefreshCw,
-  Activity,
-  Server,
-  Globe
-} from 'lucide-react';
+import { Users, DollarSign, Brain, TrendingUp, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Clock, Settings, ChartBar as BarChart3, Zap, RefreshCw, Activity, Server, Globe } from 'lucide-react';
 
 interface AdminStats {
   totalUsers: number;

@@ -3,20 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { 
-  Brain, 
-  BarChart3, 
-  Users, 
-  Calendar, 
-  MessageSquare, 
-  Settings, 
-  LogOut,
-  Menu,
-  X,
-  Bell,
-  Search,
-  Zap
-} from 'lucide-react';
+import { Brain, ChartBar as BarChart3, Users, Calendar, MessageSquare, Settings, LogOut, Menu, X, Bell, Search, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 

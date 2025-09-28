@@ -5,22 +5,7 @@ import { DashboardLayout } from '@/components/layout/DashboardLayout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { 
-  Server, 
-  Database, 
-  Zap, 
-  AlertTriangle,
-  CheckCircle,
-  Activity,
-  HardDrive,
-  Cpu,
-  MemoryStick,
-  Globe,
-  Shield,
-  RefreshCw,
-  Download,
-  Settings
-} from 'lucide-react';
+import { Server, Database, Zap, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Activity, HardDrive, Cpu, MemoryStick, Globe, Shield, RefreshCw, Download, Settings } from 'lucide-react';
 
 interface SystemHealth {
   status: 'healthy' | 'warning' | 'critical';

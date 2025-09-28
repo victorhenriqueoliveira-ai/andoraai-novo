@@ -7,25 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 import { Switch } from '@/components/ui/switch';
-import { 
-  Users, 
-  Search, 
-  Filter, 
-  MoreVertical,
-  UserPlus,
-  Shield,
-  Ban,
-  CheckCircle,
-  XCircle,
-  Eye,
-  Edit,
-  Trash2,
-  Download,
-  Mail,
-  Phone,
-  Calendar,
-  DollarSign
-} from 'lucide-react';
+import { Users, Search, Filter, MoveVertical as MoreVertical, UserPlus, Shield, Ban, CircleCheck as CheckCircle, Circle as XCircle, Eye, CreditCard as Edit, Trash2, Download, Mail, Phone, Calendar, DollarSign } from 'lucide-react';
 
 interface User {
   id: string;

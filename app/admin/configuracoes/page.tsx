@@ -8,22 +8,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Switch } from '@/components/ui/switch';
 import { Badge } from '@/components/ui/badge';
-import { 
-  Settings, 
-  Mail, 
-  Globe, 
-  Shield, 
-  Database,
-  Key,
-  Bell,
-  Zap,
-  Save,
-  RefreshCw,
-  AlertTriangle,
-  CheckCircle,
-  Eye,
-  EyeOff
-} from 'lucide-react';
+import { Settings, Mail, Globe, Shield, Database, Key, Bell, Zap, Save, RefreshCw, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Eye, EyeOff } from 'lucide-react';
 
 interface SystemConfig {
   general: {
